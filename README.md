@@ -197,8 +197,6 @@ A recovery index was calculated:
 
 **Recovery index = (2021 − 2020) / (2019 − 2020)**
 
-where:
-
 - 1 = full recovery of the 2020 decline
 - 0–1 = partial recovery
 - <0 = continued decline
@@ -214,32 +212,6 @@ Examines:
 - largest proportional declines
 - strongest recoveries
 - contrasting country trajectories
-
----
-
-## Repository structure
-
-```text
-vaccine-disruption-and-recovery/
-│
-├── README.md
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── R/
-│   ├── 01_data_audit.R
-│   ├── 02_data_cleaning.R
-│   ├── 03_vaccination_trends.R
-│   ├── 04_country_level_disruption.R
-│   ├── 05_recovery_analysis.R
-│   └── 06_country_patterns.R
-│
-├── plots/
-│
-└── tables/
-```
 
 ---
 
